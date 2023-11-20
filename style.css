@@ -1,0 +1,217 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+ *{
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+
+
+ header{
+    background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color:  chocolate;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+
+}
+
+.navigation a{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: blueviolet;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.navigation a:hover{
+    color: tomato;
+}
+
+section{
+    padding: 200px;
+}
+.main{
+    
+    min-height: 100vh;
+    background: url("images/waled.jpeg");
+    width: auto;
+    height: 108px;
+}
+
+section h2{
+   font-size: 40px;
+   font-weight: 50px;
+}
+
+section h3{
+    font-size: 70px;
+    font-weight: 40px;
+ }
+.main-btn{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 15px;
+   transition: 0.7s ease; 
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.social-icons{
+    margin: 10px;
+    font-size: 30px;
+    display: inline-block;
+    padding-right: 15px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2e;
+    font-weight: 800;
+    color: #3a6cf4;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease; 
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.projects{
+    background-color: #000016;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid #fff;
+    box-shadow: 25px white;
+    min-width: 14px;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.7;
+}
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    font-size: 0.8em;
+    color: #000016;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover{
+    color:green;
+}
+
+.card-contact .icon{
+    font-size: 4em;
+}
+.card-contact .info h3{
+    font-size: 1em;
+    color: #000016;
+}
+
+.footer{
+    background-color: #000016;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 2em;
+    color: #04AA6D;
+    padding: 1em;
+}
+.footer-title span{
+    color: #3a6cf4
+}
+.footer .social-icons{
+    font-size:1.2em ;
+    padding: 1em;
+}
+
